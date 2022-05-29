@@ -1021,7 +1021,7 @@ body{
     z-index: 15000;
     top: 0;
     left: 0;
-    background-image:url("/web2/templates/fondo.gif");
+    background-image:url("/templates/fondo.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
