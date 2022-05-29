@@ -15,13 +15,13 @@ img{
 body{
     width: 100%;
     height: 100%;
-    position: absolute;
+    background: #f76c6c;
 }
 
 #particles-js {
     width: 100%;
     height: 100%;
-    position: fixed;
+    position: absolute;
     z-index: -10;
     top: 0;
     left: 0;
