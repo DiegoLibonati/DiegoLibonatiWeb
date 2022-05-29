@@ -35,6 +35,8 @@ body{
     top: 0;
     left: 0;
     background-color: #000;
+    background-attachment:fixed;
+    min-height: 100%
 }
 
 .nav_container{
