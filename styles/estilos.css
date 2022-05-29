@@ -15,17 +15,24 @@ img{
 body{
     width: 100%;
     height: 100%;
-    background: #f76c6c;
 }
 
-#particles-js {
+#particles-js{
     width: 100%;
     height: 100%;
+    position: fixed;
+    background-color: #000;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  
+.body-particles{
     position: absolute;
-    z-index: -10;
     top: 0;
     left: 0;
-    background-color: #000;
+    z-index: 1000;
 }
 
 .nav_container{
