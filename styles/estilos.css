@@ -1157,12 +1157,10 @@ body{
                         width: 100%;
                     }
                     
-                    iframe{
-                        max-width: 80%;
+                    video {
+                        width: 100%;
                         height: auto;
-                        object-fit: cover;
-                        border: none;
-                        margin-bottom: 1rem;
+                        margin-bottom: 2rem;
                     }
 
                     .portfolio-item-information-button{
