@@ -43,6 +43,10 @@ const closePortfolioWindow = () => {
             containerContentPortfolio[i].style.display = "none";
     
         }
+
+        for (let i = 0; i < containerOfTechProjects.length; i++){
+            containerOfTechProjects[i].style.display = "none";
+        }
     }, 500);
     
 
@@ -60,4 +64,3 @@ btnsOpenPortfolioProjects.forEach(function(btnOpenPortfolioProjects){
     btnOpenPortfolioProjects.addEventListener("click", openPortfolioWindow);
 
 });
-

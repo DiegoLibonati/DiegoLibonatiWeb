@@ -53,6 +53,12 @@ const closePortfolioDesktop = (e) => {
         for (let i = 0; i < containerOfTechProjects.length; i++){
             containerOfTechProjects[i].style.display = "none";
         }
+
+        for (let i = 0; i < containerContentPortfolio.length; i++){
+    
+            containerContentPortfolio[i].style.display = "none";
+    
+        }
     
     }, 500);
 
