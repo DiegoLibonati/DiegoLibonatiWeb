@@ -71,7 +71,7 @@ body{
             transition: opacity 1s;
         }
 
-    .nav_container_list{
+    .nav_container_principal_list{
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -147,10 +147,15 @@ body{
 
     }
 
-    .nav_container_list{
+    .nav_container_principal{
+        height: 100%;
+        width: 90%;
+    }
+
+    .nav_container_principal_list{
         flex-flow: row wrap;
         justify-content: center;
-        width: 90%;
+        width: 100%;
         height: 100%;
         position: static;
         transition: height 0s;

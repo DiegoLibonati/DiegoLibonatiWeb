@@ -1,4 +1,4 @@
-const containerNav = document.querySelector(".nav_container_list");
+const containerNav = document.querySelector(".nav_container_principal_list");
 const containerNavLi = document.querySelectorAll(".nav_container_list-li");
 
 const btnOpenNav = document.getElementById("openNav");
