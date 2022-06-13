@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
 
-  let dataText = ["sociable", "cooperative", "corious", "educated", "efficient", "empathetic", "friendly", "rational", "reflective", "respectful", "self-taught"];
+  let dataText = ["sociable", "cooperative", "curious", "educated", "efficient", "empathetic", "friendly", "rational", "reflective", "respectful", "self-taught"];
   
   function typeWriter(text, i, fnCallback) {
 
