@@ -3,10 +3,10 @@ const containerSections = document.querySelectorAll(".section");
 
 let mediaQuery1023Px = window.matchMedia("(max-width:1023px)");
 let id;
-let navHeight = 100;
+let navHeight = 50;
 
 const autoScrollToSection = (e) => {
-
+  
   e.preventDefault();
 
   // Se remueven todos los efectos de underline en los li a

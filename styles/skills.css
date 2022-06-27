@@ -1,0 +1,128 @@
+.skills_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    position: relative;
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+    transition: transform 1s;
+}
+
+    .skills_container_title{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 10rem;
+        width: 95%;
+    }   
+
+        .skills_container_title h2{
+            color: var(--color-blanco);
+            font-size: 5rem;
+        }
+
+        .skills_container_title h2 span{
+            color: var(--color-main);
+            font-size: 5rem;
+        }
+
+    .skills_container_information{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+
+        .skills_container_information_list{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-flow: row wrap;
+            height: 15rem;
+            width: 90%;
+        }
+
+            .skills_container_information_list li{
+                position: relative;
+            }
+
+                .skills_container_information_list img{
+                    width: 7rem;
+                    height: 7rem;
+                    padding: 1rem;
+                }
+
+                .img-effect{
+                    position: absolute;
+                    opacity: 1;
+                    transition: opacity 1s;
+                }
+
+                .img-effect:hover{
+                    opacity: 0;
+                    transition: opacity 1s;
+                }
+
+                .img-effect:active{
+                    opacity: 0;
+                    transition: opacity 1s;
+                }
+
+@media only screen and (min-width: 280px) and (orientation: portrait){
+    .skills_container_information_list{
+        height: 30rem;
+    }
+}
+
+@media only screen and (min-width: 412px) and (orientation: portrait){
+    .skills_container_information_list img{
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+@media only screen and (min-width: 520px) and (orientation: portrait){
+    .skills_container_information_list img{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .skills_container_title{
+        height: 10rem;
+        margin-bottom: 2rem;
+    }   
+
+        .skills_container_title h2{
+            font-size: 7rem;
+        }
+
+        .skills_container_title h2 span{
+            font-size: 7rem;
+        }
+
+        .skills_container_information_list{
+            height: 35rem;
+        }
+
+        .skills_container_information_list img{
+            width: 13rem;
+            height: 13rem;
+        }
+}
+
+@media only screen and (min-width: 1024px){
+
+        .skills_container_information_list{
+            height: 20rem;
+        }
+
+        .skills_container_information_list img{
+            width: 10rem;
+            height: 10rem;
+        }
+}

@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 10px;
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width: 100%;
+}
+
+html {
+    height: 100%
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+}
+
+main{
+    margin-top: 5rem;
+}
+
+:root{
+    --color-blanco: #fff;
+    --color-negro: #000;
+    --color-main: #f76c6c;
+}

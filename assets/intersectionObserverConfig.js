@@ -24,7 +24,7 @@ const loadSections = (entrys, observador) =>{
 const observer = new IntersectionObserver(loadSections, {
 
     root: null,
-    rootMargin: "0px 0px 0px 10000px",
+    rootMargin: "0px 0px 0px 0px",
     thereshold: 1.0,
 
 });
