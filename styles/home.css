@@ -5,6 +5,8 @@
     flex-flow: column wrap;
     height: 55rem;
     width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
     .home_container_center{
@@ -218,8 +220,8 @@
             width: 40rem;
             height: 40rem;
             position: absolute;
-            top: 0rem;
-            left: 0rem;
+            top: 5rem;
+            left: 5rem;
         }
 
         .home_container_information{

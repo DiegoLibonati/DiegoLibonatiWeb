@@ -6,7 +6,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    transform: translateX(0%);
+    transform: scale(0.0);
     transition: transform 1s;
 }
 

@@ -5,7 +5,8 @@
     justify-content: flex-start;
     flex-flow: column wrap;
     height: 95rem;
-    transform: translateX(0%);
+    transform: translateX(-100%);
+    transition: transform 1s;
     margin-bottom: 2rem;
 }
 
@@ -110,6 +111,10 @@
                 background: #fff;
                 color: #f76c6c;
                 transition: color 1s, background 1s;
+            }
+
+            .contact_container_main_form_button:active{
+                transform: scale(0.90);
             }
 
             .g-recaptcha{
