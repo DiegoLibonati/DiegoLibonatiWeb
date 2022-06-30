@@ -16,7 +16,7 @@ const openPortfolioWindow = (e) =>{
     let idParentElementOfButton = e.currentTarget.parentElement.id;
 
     for (let i = 0; i < containerContentPortfolio.length; i++){
-        console.log(e)
+
         if (idParentElementOfButton === containerContentPortfolio[i].id.substring(1)){
             containerContentPortfolio[i].style.display = "flex";
         }
