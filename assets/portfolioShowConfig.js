@@ -6,7 +6,6 @@ const containerContentPortfolio = document.querySelectorAll(".portfolio-center")
 const openPortfolioWindow = (e) =>{
 
     containerPortfolio.classList.add("open-portfolio");
-    
     setTimeout(() => {
         containerPortfolio.style.transform = "translateX(0%)"
         containerPortfolio.style.transition = "transform 1s"
@@ -17,8 +16,8 @@ const openPortfolioWindow = (e) =>{
     let idParentElementOfButton = e.currentTarget.parentElement.id;
 
     for (let i = 0; i < containerContentPortfolio.length; i++){
-
-        if (idParentElementOfButton === containerContentPortfolio[i].id){
+        console.log(e)
+        if (idParentElementOfButton === containerContentPortfolio[i].id.substring(1)){
             containerContentPortfolio[i].style.display = "flex";
         }
 
