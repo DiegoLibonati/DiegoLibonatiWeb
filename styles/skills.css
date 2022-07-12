@@ -73,7 +73,7 @@
 
 @media only screen and (min-width: 280px) and (orientation: portrait) {
   .skills_container_information_list {
-    height: 40rem;
+    height: 45rem;
   }
 }
 
